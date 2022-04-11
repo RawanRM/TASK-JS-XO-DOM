@@ -18,14 +18,23 @@
             rel="stylesheet"
         >
 
-        <title>Document</title>
+        <title>XO's</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     </head>
-
     <body>
+        <img src="https://data.whicdn.com/images/354510342/original.gif" alt="Cinnamon Roll">
+        
         <div
             class="container"
             id="container"
-        >
+        >   <!-- 1st ROW -->
+        <div>
+            
+            <h1>☁🌛 TicTacToe 🌜☁</h1>
+            
+        </div>
             <div class="row">
                 <button
                     id="1"
@@ -43,6 +52,7 @@
                     onclick="clickButton(3)"
                 ></button>
             </div>
+            <!-- 2nd ROW -->
             <div class="row">
                 <button
                     id="4"
@@ -60,17 +70,24 @@
                     onclick="clickButton(6)"
                 ></button>
             </div>
+            <!-- 3rd ROW -->
             <div class="row">
+                <!-- when u remove any button
+                the "O" will shift to the LEFT
+                by one button -->
+                <!-- Rightmost BOTTOM -->
                 <button
                     id="7"
                     class="xobutton"
                     onclick="clickButton(7)"
                 ></button>
+                <!-- Middle BOTTOM -->
                 <button
                     id="8"
                     class="xobutton"
                     onclick="clickButton(8)"
                 ></button>
+                <!-- Lefttmost BOTTOM -->
                 <button
                     id="9"
                     class="xobutton"
