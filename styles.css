@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   height: 100vh;
@@ -5,6 +6,9 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
+  background-image: url(https://wallpaperaccess.com/full/2435550.png);
+  /* Start https://www.cursors-4u.com */ cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani182.cur), auto !important; /* End https://www.cursors-4u.com */
+  
 }
 .container {
   display: flex;
@@ -21,7 +25,9 @@ body {
   justify-content: center;
   align-items: center;
   font-size: x-large;
-  background-color: #e3e3e3;
+  background-color: transparent; 
+  background-image: url(https://img1.picmix.com/output/stamp/normal/8/2/7/4/1754728_6d35b.gif);
+  background-size: cover;
   width: 85px;
   height: 85px;
   text-align: center;
@@ -31,6 +37,7 @@ body {
   margin: 10px;
 
   font-family: "Permanent Marker", cursive;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym649.gif), auto !important /* End https://www.cursors-4u.com */
 }
 
 .green {
@@ -40,3 +47,23 @@ body {
 .red {
   color: red;
 }
+
+h1{
+  /* background-color: rgb(148, 202, 197); */
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/034/525/551/original/marianne-holveck-test.gif?1612520602);
+  background-size: cover;
+  -webkit-text-stroke: 0.5px pink;
+  color:rgb(255, 238, 183);
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Lobster', cursive;
+}
+ 
+img{
+  width: 150px;
+  height: 150px;
+  position:static;
+  
+}
+
+
