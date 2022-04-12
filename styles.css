@@ -7,17 +7,27 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(https://wallpaperaccess.com/full/2435550.png);
-  /* Start https://www.cursors-4u.com */ cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani182.cur), auto !important; /* End https://www.cursors-4u.com */
-  
 }
 .container {
   display: flex;
   flex-direction: column;
+  
 }
 
 .row {
   display: flex;
   flex-direction: row;
+  
+}
+
+.grid{
+  justify-content: center;
+  align-items: center;
+  height: 330px;
+  width: 330px;
+  background-color: rgb(255, 251, 241,0.5);
+  border-radius: 50px;
+  box-shadow: 2px 11px 16px 3px;
 }
 
 .xobutton {
@@ -37,7 +47,7 @@ body {
   margin: 10px;
 
   font-family: "Permanent Marker", cursive;
-  cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym649.gif), auto !important /* End https://www.cursors-4u.com */
+  
 }
 
 .green {
@@ -65,5 +75,4 @@ img{
   position:static;
   
 }
-
-
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/anime/ani-1/ani194.ani), url(https://cur.cursors-4u.net/anime/ani-1/ani194.png), auto !important;} /* End https://www.cursors-4u.com */
